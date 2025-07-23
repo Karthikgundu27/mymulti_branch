@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage ("Code") {
             steps {
-                echo "This is code stage"
+                echo "My Name is Karthik"
             }
         }
         stage ("Build") {
             steps {
-                echo "This is build stage"
+                echo "I am a DevOps Engineer"
             }
         }
     }
